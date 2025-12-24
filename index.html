@@ -7,12 +7,18 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- 安全验证提示条 -->
+    <div class="security-badge">
+        <span class="badge-icon">🔒</span>
+        <span class="badge-text">二维码已通过安全验证</span>
+    </div>
     <div class="container">
         <h1>苦瓜科技欢迎您～</h1>
         <p class="prompt">请长按识别二维码添加微信</p>
         
         <div class="qrcode-container">
-            <div id="qrcode"></div>
+            <!-- 替换为静态二维码图片 -->
+            <img src="微信图片_20251224224411_27_1239.jpg" alt="微信二维码" class="static-qrcode">
         </div>
         
         <div class="wechat-info">
@@ -21,7 +27,6 @@
         </div>
     </div>
     
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>

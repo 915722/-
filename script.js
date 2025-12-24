@@ -1,25 +1,6 @@
-// 页面加载完成后执行
-window.addEventListener('DOMContentLoaded', function() {
-    // 生成二维码
-    generateQRCode();
-});
-
-// 生成微信二维码
-function generateQRCode() {
-    // 创建二维码实例
-    var qrcode = new QRCode("qrcode", {
-        text: "https://yinliu.dinglixz.com/common/kf/?kid=101845#MTc2NjU4NTg0MQ==",
-        width: 200,
-        height: 200,
-        colorDark : "#000000",
-        colorLight : "#ffffff",
-        correctLevel : QRCode.CorrectLevel.H
-    });
-}
-
 // 复制微信号到剪贴板
 function copyWechatId() {
-    const wechatId = 'TTMEEL';
+    const wechatId = 'e177971';
     
     // 创建临时输入框
     const tempInput = document.createElement('input');
