@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>苦瓜科技欢迎您</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>苦瓜科技欢迎您～</h1>
+        <p class="prompt">请长按识别二维码添加微信</p>
+        
+        <div class="qrcode-container">
+            <div id="qrcode"></div>
+        </div>
+        
+        <div class="wechat-info">
+            <p class="wechat-label">微信号 : e177971</p>
+            <button class="copy-btn" onclick="copyWechatId()">复制</button>
+        </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
